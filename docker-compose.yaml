@@ -36,7 +36,7 @@ services:
 
   searxng:
     container_name: searxng
-    image: devneok/neok-search
+    image: devneok/neok-search:
     networks:
       - searxng
     ports:
