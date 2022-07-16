@@ -36,9 +36,9 @@ services:
 
   searxng:
     container_name: searxng
-    image: devneok/neok-search:
+    image: devneok/neok-search:main
     networks:
-      - searxng
+      - devneok
     ports:
      - "127.0.0.1:8080:8080"
     volumes:
